@@ -1,0 +1,28 @@
+/* Font-families */
+
+/* 
+  font-family: 'Barlow', sans-serif; Body
+  font-family: 'Barlow Condensed', sans-serif; Headings, Call-to-actions, Navigation
+*/
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+/* Header */
+#logo {
+  width: 32px;
+  height: 32px;
+}
+
+#menu-hamburger {
+  width: 24px;
+  height: 16px;
+}
+
+#menu-close {
+  width: 20px;
+  height: 20px;
+}
+
+/* Main */
