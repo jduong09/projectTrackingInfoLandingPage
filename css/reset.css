@@ -3,7 +3,8 @@ html, body, main, div, span, h1, h2, h3, p, a, img, header, footer, nav, section
   padding: 0;
   border: 0;
   font: inherit;
-  box-sizing: inherit;
+  color: inherit;
+  box-sizing: border-box;
   background: none;
   text-decoration: none;
 }
