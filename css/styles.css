@@ -71,7 +71,19 @@ nav > ul > li > a:hover {
 
 /* Main */
 main {
+  margin-top: 1rem;
   overflow-x: hidden;
+}
+
+#landing-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: hsl(207, 33%, 95%);
+  width: 50%;
+  height: 420px;
+  border-bottom-left-radius: 3rem;
+  z-index: -1;
 }
 
 #landing-hero-image {
@@ -80,6 +92,7 @@ main {
 }
 
 .landing-body {
+  margin-top: 4rem;
   padding: 2rem;
   font-family: 'Barlow Condensed', sans-serif;
 }
@@ -87,7 +100,7 @@ main {
 .landing-body-header {
   color: hsl(231, 7%, 65%);
   text-transform: uppercase;
-  word-spacing: .5rem;
+  letter-spacing: .25rem;
 }
 
 .landing-body-header strong {
@@ -96,17 +109,39 @@ main {
   color: hsl(0, 0%, 100%);
   padding: 0.25rem 0.5rem;
   margin-right: 0.5rem;
-  word-spacing: normal;
+  letter-spacing: normal;
 }
 
 .landing-body > h2 {
-  padding: 1.5rem 0;
-  font-size: 36px;
+  padding: 1rem 0;
+  font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .landing-body > div:nth-of-type(2) {
-  font-size: 23px;
-  padding-right: 1rem;
+  font-family: 'Barlow', sans-serif;
+  padding-right: 2rem;
+}
+
+.landing-cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1.5rem 0;
+}
+
+.landing-cta > a:first-of-type {
+  background-color: hsl(0, 100%, 68%);
+  color: hsl(0, 0%, 100%);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.landing-cta > a:nth-of-type(2) {
+  color: hsl(231, 7%, 65%);
+  letter-spacing: .25rem;
 }
