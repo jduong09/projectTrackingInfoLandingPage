@@ -57,6 +57,7 @@ nav > ul > li {
   font-weight: 700;
   text-transform: uppercase;
   color: hsl(230, 29%, 20%);
+  letter-spacing: .05rem;
 }
 
 nav > ul > li:last-of-type {
@@ -137,11 +138,15 @@ main {
 .landing-cta > a:first-of-type {
   background-color: hsl(0, 100%, 68%);
   color: hsl(0, 0%, 100%);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 5px;
+}
+
+.landing-cta > a:first-of-type:hover {
+  opacity: .7;
 }
 
 .landing-cta > a:nth-of-type(2) {
   color: hsl(231, 7%, 65%);
-  letter-spacing: .25rem;
+  letter-spacing: .15rem;
 }
