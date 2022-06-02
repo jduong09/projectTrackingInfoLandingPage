@@ -236,6 +236,7 @@ main {
 
   .landing-cta {
     justify-content: initial;
+    font-size: inherit;
   }
 
   .landing-cta > a:first-of-type {
