@@ -70,3 +70,43 @@ nav > ul > li > a:hover {
 }
 
 /* Main */
+main {
+  overflow-x: hidden;
+}
+
+#landing-hero-image {
+  width: 135%;
+  margin-left: .3rem;
+}
+
+.landing-body {
+  padding: 2rem;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.landing-body-header {
+  color: hsl(231, 7%, 65%);
+  text-transform: uppercase;
+  word-spacing: .5rem;
+}
+
+.landing-body-header strong {
+  border-radius: 500px;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  word-spacing: normal;
+}
+
+.landing-body > h2 {
+  padding: 1.5rem 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.landing-body > div:nth-of-type(2) {
+  font-size: 23px;
+  padding-right: 1rem;
+}
